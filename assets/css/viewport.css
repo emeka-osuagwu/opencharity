@@ -82,7 +82,7 @@
 		}
 	/* opencharity__call_to_action--social */
 
-	/* opencharity__slider--member_slider */
+	/* opencharity__info--mission-info */
 	
 		.opencharity__info--mission-info {
 		    padding: 20px 20px;
@@ -94,10 +94,19 @@
 		    margin-bottom: 0px;
 		}
 
-		.opencharity__info--mission-info__col {
+		.opencharity__info--mission-info__col--wrapper {
 		 	width: 92%;
 		}
-	/* opencharity__call_to_action--social */
+
+		.opencharity__info--mission-info__col {
+		 	margin-top: 10px;
+		}
+
+		.opencharity__info--mission-info__bottom_line {
+			margin: 10px;
+		}
+
+	/* opencharity__info--mission-info */
 
 	/* opencharity__slider--member_slider */
 	
@@ -197,7 +206,7 @@
 		}
 	/* opencharity__call_to_action--social */
 
-	/* opencharity__call_to_action--social */
+	/* opencharity__info--mission-info */
 
 		.opencharity__info--mission-info {
 		    padding: 20px 20px;
@@ -209,18 +218,19 @@
 		    margin-bottom: 0px;
 		}
 
-		.opencharity__info--mission-info__col {
+		.opencharity__info--mission-info__col--wrapper {
 		 	width: 30%;
 		 	margin: 6px;
 		 	margin-top: 40px;
 		 	vertical-align: top;
-		 	height: 237px;
+		 	height: 200px;
 		}
 
 		.opencharity__info--mission-info__bottom_line {
 		    margin-top: 10px;
 		}
-	/* opencharity__call_to_action--social */
+
+	/* opencharity__info--mission-info */
 
 	/* .opencharity__slider--member_slider */
 		
@@ -281,14 +291,19 @@
 		.opencharity__slider--member_slider {
 		    padding: 20px 15px;
 		}
-
-		.opencharity__slider--member_slider__lead_text {
-		    margin: 30px;
-		}
 		
 		.opencharity__slider--member_slider__item {
 		    margin: 20px;
 		}
+
+		.opencharity__info--mission-info__col--wrapper {
+		 	width: 30%;
+		 	margin: 6px;
+		 	margin-top: 60px;
+		 	vertical-align: top;
+		 	height: 200px;
+		}
+
 	/* .opencharity__slider--member_slider */
 
 	/* opencharity__slider--blog_slider */

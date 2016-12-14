@@ -6,8 +6,8 @@
 		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
 		<link rel="stylesheet" type="text/css" href="assets/css/structure.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/viewport.css">
-
-
+		<link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<script src="assets/js/lib/jquery-1.12.4.js"></script>
 		<script src="assets/js/lib/jquery-ui.js"></script>
 		<script src="assets/js/custom.js"></script>
@@ -31,7 +31,7 @@
 								<a href="#" class="opencharity__header__nav__link">The blog</a>
 							</li>
 							<li class="opencharity__header__nav__list__item">
-								<a href="#" class="opencharity__header__nav__link">Join us</a>
+								<a href="#" class="opencharity__header__nav__link opencharity__header__nav__link--active">Join us</a>
 							</li>
 						</ul>
 					</div>
@@ -54,7 +54,7 @@
 
 			<!-- #Banner -->
 				<div class="opencharity__banner">
-					<h1 class="opencharity__banner__lead_text">Share ideas for charity</h1>
+					<p class="opencharity__banner__lead_text">Share ideas for charity</p>
 					<p class="opencharity__banner__sub_text">Many charities goals are similar, and it is the functionality we require, but little shared work takes place.</p>
 					<p class="opencharity__banner__sub_text">By working together, driving shared area of interest and influencing open source development we can bring efficiencies, improve digital experience for our users, and have grate impact.</p>
 					<p class="opencharity__banner__sub_text">Together we can make a bigger difference.</p>
@@ -97,24 +97,32 @@
 
 			<!-- #Info -->
 				<div class="opencharity__info--mission-info">
-					<h2 class="opencharity__info--mission-info__lead_text">Our mission</h2>
+					<p class="opencharity__info--mission-info__lead_text">Our mission</p>
 					<p class="opencharity__info--mission-info__sub_text">Charities and partners collaborating and sharing open solutions and ideas to create value to digital space.</p>
 					<p class="opencharity__info--mission-info__sub_text">If you have charity or a supplier, we are ready to welcome you.</p>
 					
-					<div class="opencharity__info--mission-info__col">
-						<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
-						<h4 class="opencharity__info--mission-info__col__lead_text">We have charities</h4>
-						<p class="opencharity__info--mission-info__col__sub_text">share knowledge and best practice to make the best technology choice.</p>
+					<div class="opencharity__info--mission-info__col--wrapper">
+						<div class="opencharity__info--mission-info__col">
+							<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
+							<h4 class="opencharity__info--mission-info__col__lead_text">We have charities</h4>
+							<p class="opencharity__info--mission-info__col__sub_text">share knowledge and best practice to make the best technology choice.</p>
+						</div>					
+					</div>
+						
+					<div class="opencharity__info--mission-info__col--wrapper">
+						<div class="opencharity__info--mission-info__col">
+							<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
+							<h4 class="opencharity__info--mission-info__col__lead_text">We bring together</h4>
+							<p class="opencharity__info--mission-info__col__sub_text">charities and supplies to the charity sector to share bast practices.</p>
+						</div>					
 					</div>					
-					<div class="opencharity__info--mission-info__col">
-						<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
-						<h4 class="opencharity__info--mission-info__col__lead_text">We bring together</h4>
-						<p class="opencharity__info--mission-info__col__sub_text">charities and supplies to the charity sector to share bast practices.</p>
-					</div>					
-					<div class="opencharity__info--mission-info__col">
-						<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
-						<h4 class="opencharity__info--mission-info__col__lead_text">We encourage</h4>
-						<p class="opencharity__info--mission-info__col__sub_text">collaboration and innovation for the good of the charity sector.</p>
+					
+					<div class="opencharity__info--mission-info__col--wrapper">
+						<div class="opencharity__info--mission-info__col">
+							<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
+							<h4 class="opencharity__info--mission-info__col__lead_text">We encourage</h4>
+							<p class="opencharity__info--mission-info__col__sub_text">collaboration and innovation for the good of the charity sector.</p>
+						</div>
 					</div>
 
 					<hr class="opencharity__info--mission-info__bottom_line">
@@ -123,7 +131,7 @@
 
 			<!-- #Slider -->
 				<div class="opencharity__slider--member_slider">
-					 <h2 class="opencharity__slider--member_slider__lead_text">Our members</h2>
+					 <p class="opencharity__slider--member_slider__lead_text">Our members</p>
 					 <ul class="opencharity__slider--member_slider__list">
 					 	<li class="opencharity__slider--member_slider__item">
 					 		<a href="opencharity__slider--member_slider__link">
@@ -161,41 +169,33 @@
 
 			<!-- #Slider -->
 				<div class="opencharity__slider--blog_slider">
-					<h2 class="opencharity__slider--blog_slider__lead_text">Blog</h2>
+					<p class="opencharity__slider--blog_slider__lead_text">Blog</p>
 					<ul class="opencharity__slider--blog_slider__list">
 						<li class="opencharity__slider--blog_slider__list__item">
 							<p class="opencharity__slider--blog_slider__link">Online Donations special...</p>
 							<p class="opencharity__slider--blog_slider__list__item__text">
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consecteur adipiscing elit, sd do eiusomod tempor incidideunt ut labore et dolore magna aliqua.
 							</p>
 							<p class="opencharity__slider--blog_slider__list__item__time">14 Nov 2014</p>
 						</li>
 						<li class="opencharity__slider--blog_slider__list__item">
 							<p class="opencharity__slider--blog_slider__link">Online Donations special...</p>
 							<p class="opencharity__slider--blog_slider__list__item__text">
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consecteur adipiscing elit, sd do eiusomod tempor incidideunt ut labore et dolore magna aliqua.
 							</p>
 							<p class="opencharity__slider--blog_slider__list__item__time">14 Nov 2014</p>
 						</li>
 						<li class="opencharity__slider--blog_slider__list__item">
 							<p class="opencharity__slider--blog_slider__link">Online Donations special...</p>
 							<p class="opencharity__slider--blog_slider__list__item__text">
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consecteur adipiscing elit, sd do eiusomod tempor incidideunt ut labore et dolore magna aliqua.
 							</p>
 							<p class="opencharity__slider--blog_slider__list__item__time">14 Nov 2014</p>
 						</li>
 						<li class="opencharity__slider--blog_slider__list__item">
 							<p class="opencharity__slider--blog_slider__link">Online Donations special...</p>
 							<p class="opencharity__slider--blog_slider__list__item__text">
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								Lorem ipsum dolor sit amet, consecteur adipiscing elit, sd do eiusomod tempor incidideunt ut labore et dolore magna aliqua.
 							</p>
 							<p class="opencharity__slider--blog_slider__list__item__time">14 Nov 2014</p>
 						</li>
@@ -232,7 +232,6 @@
 					</div>
 				</footer>
 			<!-- #Footer-->
-
 
 		</div>
 	</body>

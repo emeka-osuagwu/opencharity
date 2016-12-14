@@ -6,24 +6,51 @@
 		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
 		<link rel="stylesheet" type="text/css" href="assets/css/structure.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/viewport.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+
+
+		<script src="assets/js/lib/jquery-1.12.4.js"></script>
+		<script src="assets/js/lib/jquery-ui.js"></script>
+		<script src="assets/js/custom.js"></script>
 	</head>
 	
 	<body>
 		<div class="opencharity">
 		
 			<!-- #Header -->
-				<header class="opencharity__header">
+				<header class="opencharity__header ">
 					<img src="assets/image/OpenCharity.png" class="opencharity__header__logo">
+					
+					<img id="button" src="assets/image/OC-Mark.png" class="opencharity__header__dropdown-icon">
+
 					<div class="opencharity__header__nav">
 						<ul class="opencharity__header__nav__list">
 							<li class="opencharity__header__nav__list__item">
 								<a href="#" class="opencharity__header__nav__link">About open charity</a>
+							</li>
+							<li class="opencharity__header__nav__list__item">
 								<a href="#" class="opencharity__header__nav__link">The blog</a>
-								<a href="#" class="opencharity__header__nav__link">Join Us</a>
+							</li>
+							<li class="opencharity__header__nav__list__item">
+								<a href="#" class="opencharity__header__nav__link">Join us</a>
 							</li>
 						</ul>
 					</div>
 				</header>
+
+				<div class="opencharity__header__nav--mobile" id="effect">
+					<ul class="opencharity__header__nav__list--mobile">
+						<li class="opencharity__header__nav__list__item--mobile">
+							<a href="#" class="opencharity__header__nav__link--mobile">About open charity</a>
+						</li>
+						<li class="opencharity__header__nav__list__item--mobile">
+							<a href="#" class="opencharity__header__nav__link--mobile">The blog</a>
+						</li>
+						<li class="opencharity__header__nav__list__item--mobile">
+							<a href="#" class="opencharity__header__nav__link--mobile">Join Us</a>
+						</li>
+					</ul>
+				</div>
 			<!-- #Header -->
 
 			<!-- #Banner -->
@@ -75,20 +102,28 @@
 					<p class="opencharity__info--mission-info__sub_text">Charities and partners collaborating and sharing open solutions and ideas to create value to digital space.</p>
 					<p class="opencharity__info--mission-info__sub_text">If you have charity or a supplier, we are ready to welcome you.</p>
 					
-					<div class="opencharity__info--mission-info__col">
-						<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
-						<h4 class="opencharity__info--mission-info__col__lead_text">We have charities</h4>
-						<p class="opencharity__info--mission-info__col__sub_text">share knowledge and best practice to make the best technology choice.</p>
+					<div class="opencharity__info--mission-info__col--wrapper">
+						<div class="opencharity__info--mission-info__col">
+							<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
+							<h4 class="opencharity__info--mission-info__col__lead_text">We have charities</h4>
+							<p class="opencharity__info--mission-info__col__sub_text">share knowledge and best practice to make the best technology choice.</p>
+						</div>					
+					</div>
+						
+					<div class="opencharity__info--mission-info__col--wrapper">
+						<div class="opencharity__info--mission-info__col">
+							<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
+							<h4 class="opencharity__info--mission-info__col__lead_text">We bring together</h4>
+							<p class="opencharity__info--mission-info__col__sub_text">charities and supplies to the charity sector to share bast practices.</p>
+						</div>					
 					</div>					
-					<div class="opencharity__info--mission-info__col">
-						<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
-						<h4 class="opencharity__info--mission-info__col__lead_text">We bring together</h4>
-						<p class="opencharity__info--mission-info__col__sub_text">charities and supplies to the charity sector to share bast practices.</p>
-					</div>					
-					<div class="opencharity__info--mission-info__col">
-						<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
-						<h4 class="opencharity__info--mission-info__col__lead_text">We encourage</h4>
-						<p class="opencharity__info--mission-info__col__sub_text">collaboration and innovation for the good of the charity sector.</p>
+					
+					<div class="opencharity__info--mission-info__col--wrapper">
+						<div class="opencharity__info--mission-info__col">
+							<img class="opencharity__info--mission-info__col__image" src="assets/image/OC-Mark.png">
+							<h4 class="opencharity__info--mission-info__col__lead_text">We encourage</h4>
+							<p class="opencharity__info--mission-info__col__sub_text">collaboration and innovation for the good of the charity sector.</p>
+						</div>
 					</div>
 
 					<hr class="opencharity__info--mission-info__bottom_line">
@@ -206,6 +241,7 @@
 					</div>
 				</footer>
 			<!-- #Footer-->
+
 
 		</div>
 	</body>
