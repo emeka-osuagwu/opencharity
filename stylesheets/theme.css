@@ -69,6 +69,12 @@
   box-shadow: none;
 }
 
+/* line 83, ../sass/theme.scss */
+.opencharity__call_to_action--social {
+  .opencharity__call_to_action--social__col__button: hover;
+  .opencharity__call_to_action--social__col__button-background-color: #5BC0C3;
+  .opencharity__call_to_action--social__col__button-color: #white;
+}
 /* line 85, ../sass/theme.scss */
 .opencharity__call_to_action--social .opencharity__call_to_action--social__title_text {
   font-size: 25px;
@@ -80,68 +86,68 @@
   color: #5BC0C3;
 }
 
-/* line 101, ../sass/theme.scss */
+/* line 106, ../sass/theme.scss */
 .opencharity__info--mission-info {
   background-color: #F1F2F5;
 }
-/* line 104, ../sass/theme.scss */
+/* line 109, ../sass/theme.scss */
 .opencharity__info--mission-info .opencharity__info--mission-info__lead_text {
   font-size: 25px;
 }
-/* line 112, ../sass/theme.scss */
+/* line 117, ../sass/theme.scss */
 .opencharity__info--mission-info .opencharity__info--mission-info__col {
   background-color: #fff;
 }
-/* line 116, ../sass/theme.scss */
+/* line 121, ../sass/theme.scss */
 .opencharity__info--mission-info .opencharity__info--mission-info__col__image--wrapper--bulb {
   width: 40%;
 }
-/* line 120, ../sass/theme.scss */
+/* line 125, ../sass/theme.scss */
 .opencharity__info--mission-info .opencharity__info--mission-info__col__lead_text {
   color: #5BC0C3;
 }
-/* line 124, ../sass/theme.scss */
+/* line 129, ../sass/theme.scss */
 .opencharity__info--mission-info .opencharity__info--mission-info__col__image--wrapper {
   background-color: #5BC0C3;
 }
 
-/* line 129, ../sass/theme.scss */
+/* line 134, ../sass/theme.scss */
 .opencharity__slider--member_slider {
   background-color: #F1F2F5;
 }
-/* line 132, ../sass/theme.scss */
+/* line 137, ../sass/theme.scss */
 .opencharity__slider--member_slider .opencharity__slider--member_slider__lead_text {
   font-size: 26px;
 }
 
-/* line 137, ../sass/theme.scss */
+/* line 142, ../sass/theme.scss */
 .opencharity__slider--blog_slider {
   background-color: #fff;
 }
-/* line 140, ../sass/theme.scss */
+/* line 145, ../sass/theme.scss */
 .opencharity__slider--blog_slider .opencharity__slider--blog_slider__link {
   color: #5BC0C3;
 }
-/* line 144, ../sass/theme.scss */
+/* line 149, ../sass/theme.scss */
 .opencharity__slider--blog_slider .opencharity__slider--blog_slider__list__item__text {
   border-top: 1px solid #F1F2F5;
   border-bottom: 1px solid #F1F2F5;
 }
 
-/* line 150, ../sass/theme.scss */
+/* line 155, ../sass/theme.scss */
 .opencharity__footer {
   background-color: #454850;
 }
-/* line 153, ../sass/theme.scss */
+/* line 158, ../sass/theme.scss */
 .opencharity__footer .opencharity__footer__nav {
   border-color: #575B64;
 }
-/* line 157, ../sass/theme.scss */
+/* line 162, ../sass/theme.scss */
 .opencharity__footer .opencharity__footer__trade_mark__text {
   color: #969EB7;
   font-size: 14px;
 }
-/* line 162, ../sass/theme.scss */
+/* line 167, ../sass/theme.scss */
 .opencharity__footer .opencharity__footer__trade_mark__text span {
   color: #5BC0C3;
 }

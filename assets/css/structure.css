@@ -39,6 +39,7 @@ button:focus {
 .opencharity {
 }
 
+
 /* opencharity__header */
 	.opencharity__header {
 		padding: 19px 100px;
@@ -94,6 +95,22 @@ button:focus {
 		position: relative;
 	}
 
+
+	.opencharity__banner__lead_text {
+		text-transform: uppercase;
+		font-size: 50px;
+		z-index: 09988;
+		position: relative
+	}
+
+	.opencharity__banner__sub_text {
+		margin: 26px auto;
+		width: 42%;
+		display: block;
+	    z-index: 09988;
+	    position: relative
+	}
+
 	.opencharity__banner__lead_overlay {
 		position: absolute;
 	    top: 0;
@@ -103,24 +120,12 @@ button:focus {
 	    color: #FFF;
 	    background: rgba(0, 0, 0, .6);
 	}
-
-	.opencharity__banner__lead_text {
-		text-transform: uppercase;
-		font-size: 50px;
-		margin-top: 109px;
-		margin-bottom: 50px;
-	}
-
-	.opencharity__banner__sub_text {
-		margin: 26px auto;
-		width: 42%;
-		display: block;
-	}
 /* opencharity__banner */
 
 /* opencharity__call_to_action */
 
 	.opencharity__call_to_action--event {
+		background-color: #c0c0c0; /* rmove this */
 		padding: 20px 100px;
 	}
 
@@ -139,11 +144,13 @@ button:focus {
 	.opencharity__call_to_action--event__event_info__register_button {
 		display: inline-block;
 		float: right;
-		padding: 15px 40px;
+		padding: 10px 30px;
 		margin-top: 10px;
-		font-weight: bold;
 		text-transform: uppercase;
 	}
+/* opencharity__call_to_action */
+
+/* .opencharity__call_to_action--social */
 
 	.opencharity__call_to_action--social {
 		padding: 70px 100px;
@@ -159,6 +166,7 @@ button:focus {
 		width: 30%;
 		margin-top: 20px;
 		padding: 4px;
+		/* background-color: #f0f0f0; */
 	}
 
 	.opencharity__call_to_action--social__col__image {
@@ -167,7 +175,6 @@ button:focus {
 
 	.opencharity__call_to_action--social__col__lead__text {
 		margin-top: 30px;
-		font-size: 19px;
 		text-transform: uppercase;
 	}
 
@@ -176,13 +183,10 @@ button:focus {
 	}
 
 	.opencharity__call_to_action--social__col__button {
-		padding: 13px 50px;
+		padding: 12px 35px;
 		text-transform: uppercase;
-		border: none;
-		border-radius: 0px;
-		font-weight: bold;
 	}
-/* opencharity__call_to_action */
+/* .opencharity__call_to_action--social */
 
 /* opencharity__info--mission-info */
 	.opencharity__info--mission-info {
@@ -325,6 +329,7 @@ button:focus {
 		margin-top: 20px; 
 	}
 /* opencharity__slider--blog_slider */
+
 
 /* opencharity__footer */
 
