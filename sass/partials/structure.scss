@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 p {
 	line-height: 25px;
-	text-align: left: 
+	text-align: left;
 }
 
 button {
@@ -42,8 +42,9 @@ button:focus {
 
 /* opencharity__header */
 	.opencharity__header {
+
 		padding: 19px 100px;
-		box-shadow: 0px 0px 6px gray;
+		box-shadow: 0px 0px 6px $gray;
 	}
 
 	.opencharity__header__logo {
@@ -193,6 +194,7 @@ button:focus {
 	.opencharity__info--mission-info {
 		text-align: center;
 		padding: 20px 100px;
+		/* background-color: gray; */
 	}
 
 	.opencharity__info--mission-info__lead_text {
