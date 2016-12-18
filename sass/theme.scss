@@ -1,0 +1,170 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "partials/color";
+
+
+.opencharity {
+	font-family: 'Montserrat', sans-serif;
+	color: $black_one;
+}
+
+.opencharity__header {
+
+	background-color: $white;
+
+	.opencharity__header__nav__link {
+		color: $black_one;
+	}
+
+	.opencharity__header__nav__link--active{
+		border: 1px solid $blue;
+		color: $blue;
+	}
+}
+
+.opencharity__header__nav--mobile {
+	background-color: $gray;
+
+	.opencharity__header__nav__list__item--mobile {
+		border: 0.88px solid $blue;
+		background-color: $white;
+		
+		.opencharity__header__nav__link--mobile {
+			color: $blue;
+		}
+	}
+
+	.opencharity__header__nav__list__item--mobile:hover {
+		background-color: $blue;
+		color: $white;
+
+		.opencharity__header__nav__link--mobile {
+			color: $white;
+		}
+	}
+
+}
+
+.opencharity__banner {
+	color: $white;
+
+	.opencharity__banner__lead_text {
+	}
+
+	.opencharity__banner__sub_text {
+
+	}	
+}
+
+
+
+.opencharity__call_to_action--event {
+	background-color: $gray;
+
+	.opencharity__call_to_action--event__event_info__time {
+		color: $black_two;
+	}
+
+	.opencharity__call_to_action--event__event_info__time span {
+		color: $blue;
+	}
+
+	.opencharity__call_to_action--event__event_info__register_button {
+		background-color: $blue;
+		color: $white;
+		box-shadow: none;
+	}
+}
+
+
+.opencharity__call_to_action--social {
+
+	.opencharity__call_to_action--social__title_text {
+		font-size: 25px;
+	}
+
+	.opencharity__call_to_action--social__col__image {
+
+	}
+
+	.opencharity__call_to_action--social__col__button {
+		border: 1px solid $blue;
+		background-color: transparent;
+		color: $blue;
+	}
+
+	.opencharity__call_to_action--social__col__button: hover {
+		background-color: $blue;
+		color: #white;
+	}
+
+}
+
+.opencharity__info--mission-info {
+	background-color: $gray;
+
+	.opencharity__info--mission-info__lead_text {
+		font-size: 25px;
+	}
+
+	.opencharity__info--mission-info__sub_text {
+		
+	}
+
+	.opencharity__info--mission-info__col {
+		background-color: $white;
+	}
+
+	.opencharity__info--mission-info__col__image--wrapper--bulb {
+		width: 40%;
+	}
+
+	.opencharity__info--mission-info__col__lead_text {
+		color: $blue;
+	}
+
+	.opencharity__info--mission-info__col__image--wrapper {
+		background-color: $blue;
+	}
+}
+
+.opencharity__slider--member_slider {
+	background-color: $gray;
+
+	.opencharity__slider--member_slider__lead_text {
+		font-size: 26px;
+	}
+}
+
+.opencharity__slider--blog_slider {
+	background-color: $white;
+
+	.opencharity__slider--blog_slider__link {
+		color: $blue;
+	}
+
+	.opencharity__slider--blog_slider__list__item__text {
+		border-top: 1px solid $gray;
+		border-bottom: 1px solid $gray;
+	}
+}
+
+.opencharity__footer {
+	background-color: $black_two;
+
+	.opencharity__footer__nav {
+		border-color: $black_three;
+	}
+
+	.opencharity__footer__trade_mark__text {
+		color: #969EB7;
+		font-size: 14px;
+	}
+
+	.opencharity__footer__trade_mark__text span {
+		color: $blue;
+	}
+}

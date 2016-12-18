@@ -1,0 +1,153 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/theme.scss */
+.opencharity {
+  font-family: 'Montserrat', sans-serif;
+  color: #565659;
+}
+
+/* line 14, ../sass/theme.scss */
+.opencharity__header {
+  background-color: #fff;
+}
+/* line 18, ../sass/theme.scss */
+.opencharity__header .opencharity__header__nav__link {
+  color: #565659;
+}
+/* line 22, ../sass/theme.scss */
+.opencharity__header .opencharity__header__nav__link--active {
+  border: 1px solid #5BC0C3;
+  color: #5BC0C3;
+}
+
+/* line 28, ../sass/theme.scss */
+.opencharity__header__nav--mobile {
+  background-color: #F1F2F5;
+}
+/* line 31, ../sass/theme.scss */
+.opencharity__header__nav--mobile .opencharity__header__nav__list__item--mobile {
+  border: 0.88px solid #5BC0C3;
+  background-color: #fff;
+}
+/* line 35, ../sass/theme.scss */
+.opencharity__header__nav--mobile .opencharity__header__nav__list__item--mobile .opencharity__header__nav__link--mobile {
+  color: #5BC0C3;
+}
+/* line 40, ../sass/theme.scss */
+.opencharity__header__nav--mobile .opencharity__header__nav__list__item--mobile:hover {
+  background-color: #5BC0C3;
+  color: #fff;
+}
+/* line 44, ../sass/theme.scss */
+.opencharity__header__nav--mobile .opencharity__header__nav__list__item--mobile:hover .opencharity__header__nav__link--mobile {
+  color: #fff;
+}
+
+/* line 51, ../sass/theme.scss */
+.opencharity__banner {
+  color: #fff;
+}
+
+/* line 64, ../sass/theme.scss */
+.opencharity__call_to_action--event {
+  background-color: #F1F2F5;
+}
+/* line 67, ../sass/theme.scss */
+.opencharity__call_to_action--event .opencharity__call_to_action--event__event_info__time {
+  color: #454850;
+}
+/* line 71, ../sass/theme.scss */
+.opencharity__call_to_action--event .opencharity__call_to_action--event__event_info__time span {
+  color: #5BC0C3;
+}
+/* line 75, ../sass/theme.scss */
+.opencharity__call_to_action--event .opencharity__call_to_action--event__event_info__register_button {
+  background-color: #5BC0C3;
+  color: #fff;
+  box-shadow: none;
+}
+
+/* line 83, ../sass/theme.scss */
+.opencharity__call_to_action--social {
+  .opencharity__call_to_action--social__col__button: hover;
+  .opencharity__call_to_action--social__col__button-background-color: #5BC0C3;
+  .opencharity__call_to_action--social__col__button-color: #white;
+}
+/* line 85, ../sass/theme.scss */
+.opencharity__call_to_action--social .opencharity__call_to_action--social__title_text {
+  font-size: 25px;
+}
+/* line 93, ../sass/theme.scss */
+.opencharity__call_to_action--social .opencharity__call_to_action--social__col__button {
+  border: 1px solid #5BC0C3;
+  background-color: transparent;
+  color: #5BC0C3;
+}
+
+/* line 106, ../sass/theme.scss */
+.opencharity__info--mission-info {
+  background-color: #F1F2F5;
+}
+/* line 109, ../sass/theme.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__lead_text {
+  font-size: 25px;
+}
+/* line 117, ../sass/theme.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col {
+  background-color: #fff;
+}
+/* line 121, ../sass/theme.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col__image--wrapper--bulb {
+  width: 40%;
+}
+/* line 125, ../sass/theme.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col__lead_text {
+  color: #5BC0C3;
+}
+/* line 129, ../sass/theme.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col__image--wrapper {
+  background-color: #5BC0C3;
+}
+
+/* line 134, ../sass/theme.scss */
+.opencharity__slider--member_slider {
+  background-color: #F1F2F5;
+}
+/* line 137, ../sass/theme.scss */
+.opencharity__slider--member_slider .opencharity__slider--member_slider__lead_text {
+  font-size: 26px;
+}
+
+/* line 142, ../sass/theme.scss */
+.opencharity__slider--blog_slider {
+  background-color: #fff;
+}
+/* line 145, ../sass/theme.scss */
+.opencharity__slider--blog_slider .opencharity__slider--blog_slider__link {
+  color: #5BC0C3;
+}
+/* line 149, ../sass/theme.scss */
+.opencharity__slider--blog_slider .opencharity__slider--blog_slider__list__item__text {
+  border-top: 1px solid #F1F2F5;
+  border-bottom: 1px solid #F1F2F5;
+}
+
+/* line 155, ../sass/theme.scss */
+.opencharity__footer {
+  background-color: #454850;
+}
+/* line 158, ../sass/theme.scss */
+.opencharity__footer .opencharity__footer__nav {
+  border-color: #575B64;
+}
+/* line 162, ../sass/theme.scss */
+.opencharity__footer .opencharity__footer__trade_mark__text {
+  color: #969EB7;
+  font-size: 14px;
+}
+/* line 167, ../sass/theme.scss */
+.opencharity__footer .opencharity__footer__trade_mark__text span {
+  color: #5BC0C3;
+}
